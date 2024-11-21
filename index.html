@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monkey Mart Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Monkey Mart</h1>
+        <div id="gameArea">
+            <div id="monkey" class="game-object"></div>
+            <div id="banana" class="game-object"></div>
+            <div id="obstacle" class="game-object"></div>
+        </div>
+        <div class="game-info">
+            <p>Score: <span id="score">0</span></p>
+            <button onclick="startGame()">Start Game</button>
+        </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>
